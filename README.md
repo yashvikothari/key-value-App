@@ -87,11 +87,11 @@ Assume you have keys: abc-1, abc-2, xyz-1, xyz-2
 /search?suffix=-1 would return abc-1 and xyz-1
 You only need to implement prefix & suffix functionality for search
 💡 Don’t use Redis or similar prebuilt KV store
-Evaluation Points
-The service should have proper test coverage and it should have a Dockerfile.
-Assumptions & design decisions etc should be documented.
+service have proper test coverage and a Dockerfile.
+Assumptions & design decisions etc are documented.
+
 Deployment
-If Kubernetes experience;
+If Kubernetes possible;
 Write deployment spec with 0 downtime deployments, service spec
 and ingress spec
 
